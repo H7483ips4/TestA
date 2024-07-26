@@ -3,6 +3,7 @@ from dash import Dash, html
 
 # Create an instance of the Dash class
 app = Dash(__name__)
+server = app.server
 
 # Define the layout of the app
 app.layout = html.Div([
